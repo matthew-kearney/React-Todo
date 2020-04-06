@@ -1,0 +1,22 @@
+.container{
+    margin-left: 25%;
+border: ridge rgb(172, 169, 165) 10px;
+width: 50%;
+align-items: center;
+display: flex;
+flex-direction: column;
+
+}
+
+.item {
+
+ width: 15%;
+ margin: 4px 0;
+ padding-left: 8px;
+ cursor: pointer;
+  
+}
+
+.item.completed {
+ text-decoration: line-through;
+}
